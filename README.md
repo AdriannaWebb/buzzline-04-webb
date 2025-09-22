@@ -290,3 +290,43 @@ Live Bar Chart (Kafka JSON streaming)
 Live Line Chart with Alert (Kafka CSV streaming)
 
 ![CSV (Kafka)](images/live_line_chart_example.jpg)
+
+
+## Custom Consumer: Hourly Category Message Analysis
+
+### Overview
+This project includes a custom consumer (`json_consumer_webb.py`) that analyzes message patterns by hour and category.
+
+### What it does
+The consumer reads streaming JSON messages from the project producer and visualizes:
+- **X-axis:** Hour of day (0-23)
+- **Y-axis:** Number of messages
+- **Multiple lines:** One colored line for each message category (humor, tech, food, travel, entertainment, gaming)
+
+### Why it's interesting
+This visualization reveals daily messaging patterns and shows which types of content are popular at different times of day. For example, you might see more humor messages in the evening or tech messages during work hours.
+
+### Chart Type
+Multi-line chart with:
+- Different colored lines for each category
+- Grid for easy reading
+- Legend showing category colors
+- Real-time updates as new messages arrive
+
+### Commands to Run
+
+**Start the project producer (required):**
+```powershell
+.venv\Scripts\activate
+py -m producers.project_producer_case
+```
+
+**Start the custom consumer:**
+```powershell
+.venv\Scripts\activate
+py -m consumers.json_consumer_webb
+```
+
+### JSON Attributes Used
+- `timestamp` - to extract the hour of day
+- `category` - to group messages by type (humor, tech, food, travel, entertainment, gaming)
