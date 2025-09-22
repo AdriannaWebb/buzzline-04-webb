@@ -1,396 +1,280 @@
-2025-09-21 15:19:37 | INFO | {'message': 'I just found a trick! It was funny.', 'author': 'Bob'}
-2025-09-21 15:19:37 | INFO | Processed JSON message: {'message': 'I just found a trick! It was funny.', 'author': 'Bob'}
-2025-09-21 15:19:37 | INFO | Message received from author: Bob
-2025-09-21 15:19:37 | INFO | Updated author counts: {'Bob': 46, 'Alice': 48, 'Eve': 39, 'Charlie': 49}
-2025-09-21 15:19:37 | INFO | Chart updated successfully for message: {"message": "I just found a trick! It was funny.", "author": "Bob"}
-
-2025-09-21 15:19:40 | INFO | {'message': 'I just loved a trick! It was funny.', 'author': 'Eve'}
-2025-09-21 15:19:40 | INFO | Processed JSON message: {'message': 'I just loved a trick! It was funny.', 'author': 'Eve'}
-2025-09-21 15:19:40 | INFO | Message received from author: Eve
-2025-09-21 15:19:40 | INFO | Updated author counts: {'Bob': 46, 'Alice': 48, 'Eve': 40, 'Charlie': 49}
-2025-09-21 15:19:40 | INFO | Chart updated successfully for message: {"message": "I just loved a trick! It was funny.", "author": "Eve"}
-
-2025-09-21 15:19:43 | INFO | {'message': 'I just loved a meme! It was exciting.', 'author': 'Alice'}
-2025-09-21 15:19:43 | INFO | Processed JSON message: {'message': 'I just loved a meme! It was exciting.', 'author': 'Alice'}
-2025-09-21 15:19:43 | INFO | Message received from author: Alice
-2025-09-21 15:19:43 | INFO | Updated author counts: {'Bob': 46, 'Alice': 49, 'Eve': 40, 'Charlie': 49}
-2025-09-21 15:19:43 | INFO | Chart updated successfully for message: {"message": "I just loved a meme! It was exciting.", "author": "Alice"}
-
-2025-09-21 15:19:46 | INFO | {'message': 'I just tried a movie! It was boring.', 'author': 'Alice'}
-2025-09-21 15:19:46 | INFO | Processed JSON message: {'message': 'I just tried a movie! It was boring.', 'author': 'Alice'}
-2025-09-21 15:19:46 | INFO | Message received from author: Alice
-2025-09-21 15:19:46 | INFO | Updated author counts: {'Bob': 46, 'Alice': 50, 'Eve': 40, 'Charlie': 49}
-2025-09-21 15:19:46 | INFO | Chart updated successfully for message: {"message": "I just tried a movie! It was boring.", "author": "Alice"}
-
-2025-09-21 15:19:49 | INFO | {'message': 'I just tried a meme! It was weird.', 'author': 'Charlie'}
-2025-09-21 15:19:49 | INFO | Processed JSON message: {'message': 'I just tried a meme! It was weird.', 'author': 'Charlie'}
-2025-09-21 15:19:49 | INFO | Message received from author: Charlie
-2025-09-21 15:19:49 | INFO | Updated author counts: {'Bob': 46, 'Alice': 50, 'Eve': 40, 'Charlie': 50}
-2025-09-21 15:19:49 | INFO | Chart updated successfully for message: {"message": "I just tried a meme! It was weird.", "author": "Charlie"}
-
-2025-09-21 15:19:52 | INFO | {'message': 'I just found an app! It was exciting.', 'author': 'Alice'}
-2025-09-21 15:19:52 | INFO | Processed JSON message: {'message': 'I just found an app! It was exciting.', 'author': 'Alice'}
-2025-09-21 15:19:52 | INFO | Message received from author: Alice
-2025-09-21 15:19:52 | INFO | Updated author counts: {'Bob': 46, 'Alice': 51, 'Eve': 40, 'Charlie': 50}
-2025-09-21 15:19:52 | INFO | Chart updated successfully for message: {"message": "I just found an app! It was exciting.", "author": "Alice"}
-
-2025-09-21 15:19:55 | INFO | {'message': 'I just found a story! It was exciting.', 'author': 'Alice'}
-2025-09-21 15:19:55 | INFO | Processed JSON message: {'message': 'I just found a story! It was exciting.', 'author': 'Alice'}
-2025-09-21 15:19:55 | INFO | Message received from author: Alice
-2025-09-21 15:19:55 | INFO | Updated author counts: {'Bob': 46, 'Alice': 52, 'Eve': 40, 'Charlie': 50}
-2025-09-21 15:19:55 | INFO | Chart updated successfully for message: {"message": "I just found a story! It was exciting.", "author": "Alice"}
-
-2025-09-21 15:19:58 | INFO | {'message': 'I just saw an app! It was funny.', 'author': 'Alice'}
-2025-09-21 15:19:58 | INFO | Processed JSON message: {'message': 'I just saw an app! It was funny.', 'author': 'Alice'}
-2025-09-21 15:19:58 | INFO | Message received from author: Alice
-2025-09-21 15:19:58 | INFO | Updated author counts: {'Bob': 46, 'Alice': 53, 'Eve': 40, 'Charlie': 50}
-2025-09-21 15:19:58 | INFO | Chart updated successfully for message: {"message": "I just saw an app! It was funny.", "author": "Alice"}
-
-2025-09-21 15:20:01 | INFO | {'message': 'I just loved a trick! It was boring.', 'author': 'Eve'}
-2025-09-21 15:20:01 | INFO | Processed JSON message: {'message': 'I just loved a trick! It was boring.', 'author': 'Eve'}
-2025-09-21 15:20:01 | INFO | Message received from author: Eve
-2025-09-21 15:20:01 | INFO | Updated author counts: {'Bob': 46, 'Alice': 53, 'Eve': 41, 'Charlie': 50}
-2025-09-21 15:20:01 | INFO | Chart updated successfully for message: {"message": "I just loved a trick! It was boring.", "author": "Eve"}
-
-2025-09-21 15:20:04 | INFO | {'message': 'I just found a movie! It was funny.', 'author': 'Bob'}
-2025-09-21 15:20:04 | INFO | Processed JSON message: {'message': 'I just found a movie! It was funny.', 'author': 'Bob'}
-2025-09-21 15:20:04 | INFO | Message received from author: Bob
-2025-09-21 15:20:04 | INFO | Updated author counts: {'Bob': 47, 'Alice': 53, 'Eve': 41, 'Charlie': 50}
-2025-09-21 15:20:04 | INFO | Chart updated successfully for message: {"message": "I just found a movie! It was funny.", "author": "Bob"}
-
-2025-09-21 15:20:07 | INFO | {'message': 'I just tried a story! It was exciting.', 'author': 'Charlie'}
-2025-09-21 15:20:07 | INFO | Processed JSON message: {'message': 'I just tried a story! It was exciting.', 'author': 'Charlie'}
-2025-09-21 15:20:07 | INFO | Message received from author: Charlie
-2025-09-21 15:20:07 | INFO | Updated author counts: {'Bob': 47, 'Alice': 53, 'Eve': 41, 'Charlie': 51}
-2025-09-21 15:20:07 | INFO | Chart updated successfully for message: {"message": "I just tried a story! It was exciting.", "author": "Charlie"}
-
-2025-09-21 15:20:10 | INFO | {'message': 'I just saw a story! It was boring.', 'author': 'Charlie'}
-2025-09-21 15:20:10 | INFO | Processed JSON message: {'message': 'I just saw a story! It was boring.', 'author': 'Charlie'}
-2025-09-21 15:20:10 | INFO | Message received from author: Charlie
-2025-09-21 15:20:10 | INFO | Updated author counts: {'Bob': 47, 'Alice': 53, 'Eve': 41, 'Charlie': 52}
-2025-09-21 15:20:10 | INFO | Chart updated successfully for message: {"message": "I just saw a story! It was boring.", "author": "Charlie"}
-
-2025-09-21 15:20:13 | INFO | {'message': 'I just saw an app! It was weird.', 'author': 'Eve'}
-2025-09-21 15:20:13 | INFO | Processed JSON message: {'message': 'I just saw an app! It was weird.', 'author': 'Eve'}
-2025-09-21 15:20:13 | INFO | Message received from author: Eve
-2025-09-21 15:20:13 | INFO | Updated author counts: {'Bob': 47, 'Alice': 53, 'Eve': 42, 'Charlie': 52}
-2025-09-21 15:20:13 | INFO | Chart updated successfully for message: {"message": "I just saw an app! It was weird.", "author": "Eve"}
-
-2025-09-21 15:20:16 | INFO | {'message': 'I just saw a story! It was weird.', 'author': 'Bob'}
-2025-09-21 15:20:16 | INFO | Processed JSON message: {'message': 'I just saw a story! It was weird.', 'author': 'Bob'}
-2025-09-21 15:20:16 | INFO | Message received from author: Bob
-2025-09-21 15:20:16 | INFO | Updated author counts: {'Bob': 48, 'Alice': 53, 'Eve': 42, 'Charlie': 52}
-2025-09-21 15:20:16 | INFO | Chart updated successfully for message: {"message": "I just saw a story! It was weird.", "author": "Bob"}
-
-2025-09-21 15:20:19 | INFO | {'message': 'I just found a movie! It was weird.', 'author': 'Eve'}
-2025-09-21 15:20:19 | INFO | Processed JSON message: {'message': 'I just found a movie! It was weird.', 'author': 'Eve'}
-2025-09-21 15:20:19 | INFO | Message received from author: Eve
-2025-09-21 15:20:19 | INFO | Updated author counts: {'Bob': 48, 'Alice': 53, 'Eve': 43, 'Charlie': 52}
-2025-09-21 15:20:19 | INFO | Chart updated successfully for message: {"message": "I just found a movie! It was weird.", "author": "Eve"}
-
-2025-09-21 15:20:22 | INFO | {'message': 'I just found an app! It was boring.', 'author': 'Eve'}
-2025-09-21 15:20:22 | INFO | Processed JSON message: {'message': 'I just found an app! It was boring.', 'author': 'Eve'}
-2025-09-21 15:20:22 | INFO | Message received from author: Eve
-2025-09-21 15:20:22 | INFO | Updated author counts: {'Bob': 48, 'Alice': 53, 'Eve': 44, 'Charlie': 52}
-2025-09-21 15:20:22 | INFO | Chart updated successfully for message: {"message": "I just found an app! It was boring.", "author": "Eve"}
-
-2025-09-21 15:20:25 | INFO | {'message': 'I just shared a meme! It was funny.', 'author': 'Alice'}
-2025-09-21 15:20:25 | INFO | Processed JSON message: {'message': 'I just shared a meme! It was funny.', 'author': 'Alice'}
-2025-09-21 15:20:25 | INFO | Message received from author: Alice
-2025-09-21 15:20:25 | INFO | Updated author counts: {'Bob': 48, 'Alice': 54, 'Eve': 44, 'Charlie': 52}
-2025-09-21 15:20:25 | INFO | Chart updated successfully for message: {"message": "I just shared a meme! It was funny.", "author": "Alice"}
-
-2025-09-21 15:20:28 | INFO | {'message': 'I just shared an app! It was boring.', 'author': 'Bob'}
-2025-09-21 15:20:28 | INFO | Processed JSON message: {'message': 'I just shared an app! It was boring.', 'author': 'Bob'}
-2025-09-21 15:20:28 | INFO | Message received from author: Bob
-2025-09-21 15:20:28 | INFO | Updated author counts: {'Bob': 49, 'Alice': 54, 'Eve': 44, 'Charlie': 52}
-2025-09-21 15:20:28 | INFO | Chart updated successfully for message: {"message": "I just shared an app! It was boring.", "author": "Bob"}
-
-2025-09-21 15:20:31 | INFO | {'message': 'I just tried a trick! It was exciting.', 'author': 'Alice'}
-2025-09-21 15:20:31 | INFO | Processed JSON message: {'message': 'I just tried a trick! It was exciting.', 'author': 'Alice'}
-2025-09-21 15:20:31 | INFO | Message received from author: Alice
-2025-09-21 15:20:31 | INFO | Updated author counts: {'Bob': 49, 'Alice': 55, 'Eve': 44, 'Charlie': 52}
-2025-09-21 15:20:31 | INFO | Chart updated successfully for message: {"message": "I just tried a trick! It was exciting.", "author": "Alice"}
-
-2025-09-21 15:20:34 | INFO | {'message': 'I just shared an app! It was boring.', 'author': 'Eve'}
-2025-09-21 15:20:34 | INFO | Processed JSON message: {'message': 'I just shared an app! It was boring.', 'author': 'Eve'}
-2025-09-21 15:20:34 | INFO | Message received from author: Eve
-2025-09-21 15:20:34 | INFO | Updated author counts: {'Bob': 49, 'Alice': 55, 'Eve': 45, 'Charlie': 52}
-2025-09-21 15:20:34 | INFO | Chart updated successfully for message: {"message": "I just shared an app! It was boring.", "author": "Eve"}
-
-2025-09-21 15:20:37 | INFO | {'message': 'I just saw a trick! It was amazing.', 'author': 'Eve'}
-2025-09-21 15:20:37 | INFO | Processed JSON message: {'message': 'I just saw a trick! It was amazing.', 'author': 'Eve'}
-2025-09-21 15:20:37 | INFO | Message received from author: Eve
-2025-09-21 15:20:37 | INFO | Updated author counts: {'Bob': 49, 'Alice': 55, 'Eve': 46, 'Charlie': 52}
-2025-09-21 15:20:37 | INFO | Chart updated successfully for message: {"message": "I just saw a trick! It was amazing.", "author": "Eve"}
-
-2025-09-21 15:20:40 | INFO | {'message': 'I just shared a story! It was funny.', 'author': 'Eve'}
-2025-09-21 15:20:40 | INFO | Processed JSON message: {'message': 'I just shared a story! It was funny.', 'author': 'Eve'}
-2025-09-21 15:20:40 | INFO | Message received from author: Eve
-2025-09-21 15:20:40 | INFO | Updated author counts: {'Bob': 49, 'Alice': 55, 'Eve': 47, 'Charlie': 52}
-2025-09-21 15:20:40 | INFO | Chart updated successfully for message: {"message": "I just shared a story! It was funny.", "author": "Eve"}
-
-2025-09-21 15:20:43 | INFO | {'message': 'I just saw an app! It was exciting.', 'author': 'Bob'}
-2025-09-21 15:20:43 | INFO | Processed JSON message: {'message': 'I just saw an app! It was exciting.', 'author': 'Bob'}
-2025-09-21 15:20:43 | INFO | Message received from author: Bob
-2025-09-21 15:20:43 | INFO | Updated author counts: {'Bob': 50, 'Alice': 55, 'Eve': 47, 'Charlie': 52}
-2025-09-21 15:20:43 | INFO | Chart updated successfully for message: {"message": "I just saw an app! It was exciting.", "author": "Bob"}
-
-2025-09-21 15:20:46 | INFO | {'message': 'I just saw a trick! It was exciting.', 'author': 'Eve'}
-2025-09-21 15:20:46 | INFO | Processed JSON message: {'message': 'I just saw a trick! It was exciting.', 'author': 'Eve'}
-2025-09-21 15:20:46 | INFO | Message received from author: Eve
-2025-09-21 15:20:46 | INFO | Updated author counts: {'Bob': 50, 'Alice': 55, 'Eve': 48, 'Charlie': 52}
-2025-09-21 15:20:46 | INFO | Chart updated successfully for message: {"message": "I just saw a trick! It was exciting.", "author": "Eve"}
-
-2025-09-21 15:20:49 | INFO | {'message': 'I just found a trick! It was weird.', 'author': 'Eve'}
-2025-09-21 15:20:49 | INFO | Processed JSON message: {'message': 'I just found a trick! It was weird.', 'author': 'Eve'}
-2025-09-21 15:20:49 | INFO | Message received from author: Eve
-2025-09-21 15:20:49 | INFO | Updated author counts: {'Bob': 50, 'Alice': 55, 'Eve': 49, 'Charlie': 52}
-2025-09-21 15:20:49 | INFO | Chart updated successfully for message: {"message": "I just found a trick! It was weird.", "author": "Eve"}
-
-2025-09-21 15:20:52 | INFO | {'message': 'I just shared a movie! It was amazing.', 'author': 'Bob'}
-2025-09-21 15:20:52 | INFO | Processed JSON message: {'message': 'I just shared a movie! It was amazing.', 'author': 'Bob'}
-2025-09-21 15:20:52 | INFO | Message received from author: Bob
-2025-09-21 15:20:52 | INFO | Updated author counts: {'Bob': 51, 'Alice': 55, 'Eve': 49, 'Charlie': 52}
-2025-09-21 15:20:52 | INFO | Chart updated successfully for message: {"message": "I just shared a movie! It was amazing.", "author": "Bob"}
-
-2025-09-21 15:20:55 | INFO | {'message': 'I just found an app! It was boring.', 'author': 'Bob'}
-2025-09-21 15:20:55 | INFO | Processed JSON message: {'message': 'I just found an app! It was boring.', 'author': 'Bob'}
-2025-09-21 15:20:55 | INFO | Message received from author: Bob
-2025-09-21 15:20:55 | INFO | Updated author counts: {'Bob': 52, 'Alice': 55, 'Eve': 49, 'Charlie': 52}
-2025-09-21 15:20:55 | INFO | Chart updated successfully for message: {"message": "I just found an app! It was boring.", "author": "Bob"}
-
-2025-09-21 15:20:58 | INFO | {'message': 'I just tried an app! It was exciting.', 'author': 'Eve'}
-2025-09-21 15:20:58 | INFO | Processed JSON message: {'message': 'I just tried an app! It was exciting.', 'author': 'Eve'}
-2025-09-21 15:20:58 | INFO | Message received from author: Eve
-2025-09-21 15:20:58 | INFO | Updated author counts: {'Bob': 52, 'Alice': 55, 'Eve': 50, 'Charlie': 52}
-2025-09-21 15:20:58 | INFO | Chart updated successfully for message: {"message": "I just tried an app! It was exciting.", "author": "Eve"}
-
-2025-09-21 15:21:01 | INFO | {'message': 'I just saw a meme! It was exciting.', 'author': 'Alice'}
-2025-09-21 15:21:01 | INFO | Processed JSON message: {'message': 'I just saw a meme! It was exciting.', 'author': 'Alice'}
-2025-09-21 15:21:01 | INFO | Message received from author: Alice
-2025-09-21 15:21:01 | INFO | Updated author counts: {'Bob': 52, 'Alice': 56, 'Eve': 50, 'Charlie': 52}
-2025-09-21 15:21:01 | INFO | Chart updated successfully for message: {"message": "I just saw a meme! It was exciting.", "author": "Alice"}
-
-2025-09-21 15:21:04 | INFO | {'message': 'I just saw an app! It was exciting.', 'author': 'Alice'}
-2025-09-21 15:21:04 | INFO | Processed JSON message: {'message': 'I just saw an app! It was exciting.', 'author': 'Alice'}
-2025-09-21 15:21:04 | INFO | Message received from author: Alice
-2025-09-21 15:21:04 | INFO | Updated author counts: {'Bob': 52, 'Alice': 57, 'Eve': 50, 'Charlie': 52}
-2025-09-21 15:21:04 | INFO | Chart updated successfully for message: {"message": "I just saw an app! It was exciting.", "author": "Alice"}
-
-2025-09-21 15:21:07 | INFO | {'message': 'I just shared an app! It was funny.', 'author': 'Charlie'}
-2025-09-21 15:21:07 | INFO | Processed JSON message: {'message': 'I just shared an app! It was funny.', 'author': 'Charlie'}
-2025-09-21 15:21:07 | INFO | Message received from author: Charlie
-2025-09-21 15:21:07 | INFO | Updated author counts: {'Bob': 52, 'Alice': 57, 'Eve': 50, 'Charlie': 53}
-2025-09-21 15:21:07 | INFO | Chart updated successfully for message: {"message": "I just shared an app! It was funny.", "author": "Charlie"}
-
-2025-09-21 15:21:10 | INFO | {'message': 'I just tried a trick! It was exciting.', 'author': 'Charlie'}
-2025-09-21 15:21:10 | INFO | Processed JSON message: {'message': 'I just tried a trick! It was exciting.', 'author': 'Charlie'}
-2025-09-21 15:21:10 | INFO | Message received from author: Charlie
-2025-09-21 15:21:10 | INFO | Updated author counts: {'Bob': 52, 'Alice': 57, 'Eve': 50, 'Charlie': 54}
-2025-09-21 15:21:10 | INFO | Chart updated successfully for message: {"message": "I just tried a trick! It was exciting.", "author": "Charlie"}
-
-2025-09-21 15:21:13 | INFO | {'message': 'I just loved a movie! It was exciting.', 'author': 'Eve'}
-2025-09-21 15:21:13 | INFO | Processed JSON message: {'message': 'I just loved a movie! It was exciting.', 'author': 'Eve'}
-2025-09-21 15:21:13 | INFO | Message received from author: Eve
-2025-09-21 15:21:13 | INFO | Updated author counts: {'Bob': 52, 'Alice': 57, 'Eve': 51, 'Charlie': 54}
-2025-09-21 15:21:13 | INFO | Chart updated successfully for message: {"message": "I just loved a movie! It was exciting.", "author": "Eve"}
-
-2025-09-21 15:21:16 | INFO | {'message': 'I just tried an app! It was boring.', 'author': 'Charlie'}
-2025-09-21 15:21:16 | INFO | Processed JSON message: {'message': 'I just tried an app! It was boring.', 'author': 'Charlie'}
-2025-09-21 15:21:16 | INFO | Message received from author: Charlie
-2025-09-21 15:21:16 | INFO | Updated author counts: {'Bob': 52, 'Alice': 57, 'Eve': 51, 'Charlie': 55}
-2025-09-21 15:21:16 | INFO | Chart updated successfully for message: {"message": "I just tried an app! It was boring.", "author": "Charlie"}
-
-2025-09-21 15:21:19 | INFO | {'message': 'I just shared a story! It was exciting.', 'author': 'Bob'}
-2025-09-21 15:21:19 | INFO | Processed JSON message: {'message': 'I just shared a story! It was exciting.', 'author': 'Bob'}
-2025-09-21 15:21:19 | INFO | Message received from author: Bob
-2025-09-21 15:21:19 | INFO | Updated author counts: {'Bob': 53, 'Alice': 57, 'Eve': 51, 'Charlie': 55}
-2025-09-21 15:21:19 | INFO | Chart updated successfully for message: {"message": "I just shared a story! It was exciting.", "author": "Bob"}
-
-2025-09-21 15:21:22 | INFO | {'message': 'I just found a meme! It was funny.', 'author': 'Eve'}
-2025-09-21 15:21:22 | INFO | Processed JSON message: {'message': 'I just found a meme! It was funny.', 'author': 'Eve'}
-2025-09-21 15:21:22 | INFO | Message received from author: Eve
-2025-09-21 15:21:22 | INFO | Updated author counts: {'Bob': 53, 'Alice': 57, 'Eve': 52, 'Charlie': 55}
-2025-09-21 15:21:23 | INFO | Chart updated successfully for message: {"message": "I just found a meme! It was funny.", "author": "Eve"}
-
-2025-09-21 15:21:25 | INFO | {'message': 'I just saw a meme! It was amazing.', 'author': 'Charlie'}
-2025-09-21 15:21:25 | INFO | Processed JSON message: {'message': 'I just saw a meme! It was amazing.', 'author': 'Charlie'}
-2025-09-21 15:21:25 | INFO | Message received from author: Charlie
-2025-09-21 15:21:25 | INFO | Updated author counts: {'Bob': 53, 'Alice': 57, 'Eve': 52, 'Charlie': 56}
-2025-09-21 15:21:25 | INFO | Chart updated successfully for message: {"message": "I just saw a meme! It was amazing.", "author": "Charlie"}
-
-2025-09-21 15:21:28 | INFO | {'message': 'I just found a trick! It was amazing.', 'author': 'Charlie'}
-2025-09-21 15:21:28 | INFO | Processed JSON message: {'message': 'I just found a trick! It was amazing.', 'author': 'Charlie'}
-2025-09-21 15:21:28 | INFO | Message received from author: Charlie
-2025-09-21 15:21:28 | INFO | Updated author counts: {'Bob': 53, 'Alice': 57, 'Eve': 52, 'Charlie': 57}
-2025-09-21 15:21:28 | INFO | Chart updated successfully for message: {"message": "I just found a trick! It was amazing.", "author": "Charlie"}
-
-2025-09-21 15:21:31 | INFO | {'message': 'I just tried an app! It was amazing.', 'author': 'Alice'}
-2025-09-21 15:21:31 | INFO | Processed JSON message: {'message': 'I just tried an app! It was amazing.', 'author': 'Alice'}
-2025-09-21 15:21:31 | INFO | Message received from author: Alice
-2025-09-21 15:21:31 | INFO | Updated author counts: {'Bob': 53, 'Alice': 58, 'Eve': 52, 'Charlie': 57}
-2025-09-21 15:21:31 | INFO | Chart updated successfully for message: {"message": "I just tried an app! It was amazing.", "author": "Alice"}
-
-2025-09-21 15:21:34 | INFO | {'message': 'I just found a meme! It was exciting.', 'author': 'Eve'}
-2025-09-21 15:21:34 | INFO | Processed JSON message: {'message': 'I just found a meme! It was exciting.', 'author': 'Eve'}
-2025-09-21 15:21:34 | INFO | Message received from author: Eve
-2025-09-21 15:21:34 | INFO | Updated author counts: {'Bob': 53, 'Alice': 58, 'Eve': 53, 'Charlie': 57}
-2025-09-21 15:21:35 | INFO | Chart updated successfully for message: {"message": "I just found a meme! It was exciting.", "author": "Eve"}
-
-2025-09-21 15:21:37 | INFO | {'message': 'I just tried a trick! It was amazing.', 'author': 'Eve'}
-2025-09-21 15:21:37 | INFO | Processed JSON message: {'message': 'I just tried a trick! It was amazing.', 'author': 'Eve'}
-2025-09-21 15:21:37 | INFO | Message received from author: Eve
-2025-09-21 15:21:37 | INFO | Updated author counts: {'Bob': 53, 'Alice': 58, 'Eve': 54, 'Charlie': 57}
-2025-09-21 15:21:37 | INFO | Chart updated successfully for message: {"message": "I just tried a trick! It was amazing.", "author": "Eve"}
-
-2025-09-21 15:21:40 | INFO | {'message': 'I just loved a movie! It was weird.', 'author': 'Charlie'}
-2025-09-21 15:21:40 | INFO | Processed JSON message: {'message': 'I just loved a movie! It was weird.', 'author': 'Charlie'}
-2025-09-21 15:21:40 | INFO | Message received from author: Charlie
-2025-09-21 15:21:40 | INFO | Updated author counts: {'Bob': 53, 'Alice': 58, 'Eve': 54, 'Charlie': 58}
-2025-09-21 15:21:40 | INFO | Chart updated successfully for message: {"message": "I just loved a movie! It was weird.", "author": "Charlie"}
-
-2025-09-21 15:21:43 | INFO | {'message': 'I just loved a trick! It was amazing.', 'author': 'Charlie'}
-2025-09-21 15:21:43 | INFO | Processed JSON message: {'message': 'I just loved a trick! It was amazing.', 'author': 'Charlie'}
-2025-09-21 15:21:43 | INFO | Message received from author: Charlie
-2025-09-21 15:21:43 | INFO | Updated author counts: {'Bob': 53, 'Alice': 58, 'Eve': 54, 'Charlie': 59}
-2025-09-21 15:21:44 | INFO | Chart updated successfully for message: {"message": "I just loved a trick! It was amazing.", "author": "Charlie"}
-
-2025-09-21 15:21:46 | INFO | {'message': 'I just shared a meme! It was exciting.', 'author': 'Charlie'}
-2025-09-21 15:21:46 | INFO | Processed JSON message: {'message': 'I just shared a meme! It was exciting.', 'author': 'Charlie'}
-2025-09-21 15:21:46 | INFO | Message received from author: Charlie
-2025-09-21 15:21:46 | INFO | Updated author counts: {'Bob': 53, 'Alice': 58, 'Eve': 54, 'Charlie': 60}
-2025-09-21 15:21:46 | INFO | Chart updated successfully for message: {"message": "I just shared a meme! It was exciting.", "author": "Charlie"}
-
-2025-09-21 15:21:49 | INFO | {'message': 'I just saw an app! It was funny.', 'author': 'Alice'}
-2025-09-21 15:21:49 | INFO | Processed JSON message: {'message': 'I just saw an app! It was funny.', 'author': 'Alice'}
-2025-09-21 15:21:49 | INFO | Message received from author: Alice
-2025-09-21 15:21:49 | INFO | Updated author counts: {'Bob': 53, 'Alice': 59, 'Eve': 54, 'Charlie': 60}
-2025-09-21 15:21:49 | INFO | Chart updated successfully for message: {"message": "I just saw an app! It was funny.", "author": "Alice"}
-
-2025-09-21 15:21:52 | INFO | {'message': 'I just shared a story! It was exciting.', 'author': 'Alice'}
-2025-09-21 15:21:52 | INFO | Processed JSON message: {'message': 'I just shared a story! It was exciting.', 'author': 'Alice'}
-2025-09-21 15:21:52 | INFO | Message received from author: Alice
-2025-09-21 15:21:52 | INFO | Updated author counts: {'Bob': 53, 'Alice': 60, 'Eve': 54, 'Charlie': 60}
-2025-09-21 15:21:52 | INFO | Chart updated successfully for message: {"message": "I just shared a story! It was exciting.", "author": "Alice"}
-
-2025-09-21 15:21:55 | INFO | {'message': 'I just shared a trick! It was funny.', 'author': 'Alice'}
-2025-09-21 15:21:55 | INFO | Processed JSON message: {'message': 'I just shared a trick! It was funny.', 'author': 'Alice'}
-2025-09-21 15:21:55 | INFO | Message received from author: Alice
-2025-09-21 15:21:55 | INFO | Updated author counts: {'Bob': 53, 'Alice': 61, 'Eve': 54, 'Charlie': 60}
-2025-09-21 15:21:55 | INFO | Chart updated successfully for message: {"message": "I just shared a trick! It was funny.", "author": "Alice"}
-
-2025-09-21 15:21:58 | INFO | {'message': 'I just loved a meme! It was funny.', 'author': 'Alice'}
-2025-09-21 15:21:58 | INFO | Processed JSON message: {'message': 'I just loved a meme! It was funny.', 'author': 'Alice'}
-2025-09-21 15:21:58 | INFO | Message received from author: Alice
-2025-09-21 15:21:58 | INFO | Updated author counts: {'Bob': 53, 'Alice': 62, 'Eve': 54, 'Charlie': 60}
-2025-09-21 15:21:58 | INFO | Chart updated successfully for message: {"message": "I just loved a meme! It was funny.", "author": "Alice"}
-
-2025-09-21 15:22:00 | INFO | Consumer interrupted by user.
-2025-09-21 15:22:01 | INFO | {'message': 'I just shared an app! It was exciting.', 'author': 'Eve'}
-2025-09-21 15:22:04 | INFO | {'message': 'I just shared an app! It was funny.', 'author': 'Charlie'}
-2025-09-21 15:22:07 | INFO | {'message': 'I just loved a story! It was weird.', 'author': 'Bob'}
-2025-09-21 15:22:07 | WARNING | Producer interrupted by user.
-2025-09-21 15:22:07 | INFO | Producer shutting down.
-2025-09-21 15:22:20 | INFO | Consumer closed.
-2025-09-21 15:32:46 | INFO | Logging to file: logs/project_log.log
-2025-09-21 15:32:46 | INFO | Log sanitization enabled, personal info removed
-2025-09-21 15:32:48 | INFO | START consumer.
-2025-09-21 15:32:48 | INFO | Kafka topic: buzzline_json
-2025-09-21 15:32:48 | INFO | Kafka consumer group id: buzz_group
-2025-09-21 15:32:48 | INFO | Consumer: Topic 'buzzline_json' and group 'buzz_group'...
-2025-09-21 15:32:48 | INFO | Kafka broker address: localhost:9092
-2025-09-21 15:32:48 | INFO | Creating Kafka consumer. Topic='buzzline_json' and group ID='buzz_group'.
-2025-09-21 15:32:48 | INFO | Kafka consumer created successfully.
-2025-09-21 15:32:48 | INFO | Polling messages from topic 'buzzline_json'...
-2025-09-21 15:32:51 | INFO | Processed JSON message: {'company': 'MegaCorp', 'email_type': 'sale_alert', 'user_action': 'unsubscribed'}
-2025-09-21 15:32:51 | ERROR | Missing timestamp in message: {"company": "MegaCorp", "email_type": "sale_alert", "user_action": "unsubscribed"}
-2025-09-21 15:32:51 | INFO | Processed JSON message: {'company': 'DealHunter', 'email_type': 'survey', 'user_action': 'ignored'}
-2025-09-21 15:32:51 | ERROR | Missing timestamp in message: {"company": "DealHunter", "email_type": "survey", "user_action": "ignored"}
-2025-09-21 15:32:51 | INFO | Processed JSON message: {'company': 'BargainMart', 'email_type': 'promotional', 'user_action': 'marked_spam'}
-2025-09-21 15:32:51 | ERROR | Missing timestamp in message: {"company": "BargainMart", "email_type": "promotional", "user_action": "marked_spam"}
-2025-09-21 15:32:51 | INFO | Processed JSON message: {'company': 'QuickBuy', 'email_type': 'welcome_email', 'user_action': 'clicked'}
-2025-09-21 15:32:51 | ERROR | Missing timestamp in message: {"company": "QuickBuy", "email_type": "welcome_email", "user_action": "clicked"}
-2025-09-21 15:32:51 | INFO | Processed JSON message: {'company': 'MegaCorp', 'email_type': 'newsletter', 'user_action': 'unsubscribed'}
-2025-09-21 15:32:51 | ERROR | Missing timestamp in message: {"company": "MegaCorp", "email_type": "newsletter", "user_action": "unsubscribed"}
-2025-09-21 15:32:51 | INFO | Processed JSON message: {'company': 'SpamCorp', 'email_type': 'promotional', 'user_action': 'unsubscribed'}
-2025-09-21 15:32:51 | ERROR | Missing timestamp in message: {"company": "SpamCorp", "email_type": "promotional", "user_action": "unsubscribed"}
-2025-09-21 15:33:45 | WARNING | Consumer interrupted by user.
-2025-09-21 15:33:45 | INFO | Kafka consumer for topic 'buzzline_json' closed.
-2025-09-21 15:33:45 | INFO | END consumer for topic 'buzzline_json' and group 'buzz_group'.
-2025-09-21 15:46:00 | INFO | Logging to file: logs/project_log.log
-2025-09-21 15:46:00 | INFO | Log sanitization enabled, personal info removed
-2025-09-21 15:46:00 | INFO | START producer...
-2025-09-21 15:46:00 | INFO | Kafka producer connected to localhost:9092
-2025-09-21 15:46:00 | INFO | {'message': 'I just found a meme! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-21 15:46:00', 'category': 'humor', 'sentiment': 0.51, 'keyword_mentioned': 'meme', 'message_length': 34}
-2025-09-21 15:46:01 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just found a meme! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-21 15:46:00', 'category': 'humor', 'sentiment': 0.51, 'keyword_mentioned': 'meme', 'message_length': 34}
-2025-09-21 15:46:06 | INFO | {'message': 'I just saw travel! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-21 15:46:06', 'category': 'travel', 'sentiment': 0.48, 'keyword_mentioned': 'travel', 'message_length': 33}
-2025-09-21 15:46:06 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just saw travel! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-21 15:46:06', 'category': 'travel', 'sentiment': 0.48, 'keyword_mentioned': 'travel', 'message_length': 33}
-2025-09-21 15:46:11 | INFO | {'message': 'I just saw JavaScript! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-21 15:46:11', 'category': 'tech', 'sentiment': 0.28, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
-2025-09-21 15:46:11 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just saw JavaScript! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-21 15:46:11', 'category': 'tech', 'sentiment': 0.28, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
-2025-09-21 15:46:16 | INFO | {'message': 'I just tried a trick! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-21 15:46:16', 'category': 'other', 'sentiment': 0.99, 'keyword_mentioned': 'other', 'message_length': 35}
-2025-09-21 15:46:16 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just tried a trick! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-21 15:46:16', 'category': 'other', 'sentiment': 0.99, 'keyword_mentioned': 'other', 'message_length': 35}
-2025-09-21 15:46:21 | INFO | {'message': 'I just tried travel! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-21 15:46:21', 'category': 'travel', 'sentiment': 0.24, 'keyword_mentioned': 'travel', 'message_length': 35}
-2025-09-21 15:46:21 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just tried travel! It was boring.', 'author': 'Eve', 'timestamp': '2025-09-21 15:46:21', 'category': 'travel', 'sentiment': 0.24, 'keyword_mentioned': 'travel', 'message_length': 35}
-2025-09-21 15:46:26 | INFO | {'message': 'I just saw recipe! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-21 15:46:26', 'category': 'food', 'sentiment': 0.19, 'keyword_mentioned': 'recipe', 'message_length': 32}
-2025-09-21 15:46:26 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just saw recipe! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-21 15:46:26', 'category': 'food', 'sentiment': 0.19, 'keyword_mentioned': 'recipe', 'message_length': 32}
-2025-09-21 15:46:31 | INFO | {'message': 'I just loved an app! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-21 15:46:31', 'category': 'other', 'sentiment': 0.1, 'keyword_mentioned': 'other', 'message_length': 36}
-2025-09-21 15:46:31 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just loved an app! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-21 15:46:31', 'category': 'other', 'sentiment': 0.1, 'keyword_mentioned': 'other', 'message_length': 36}
-2025-09-21 15:46:36 | INFO | {'message': 'I just tried recipe! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-21 15:46:36', 'category': 'food', 'sentiment': 0.59, 'keyword_mentioned': 'recipe', 'message_length': 37}
-2025-09-21 15:46:36 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just tried recipe! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-21 15:46:36', 'category': 'food', 'sentiment': 0.59, 'keyword_mentioned': 'recipe', 'message_length': 37}
-2025-09-21 15:46:38 | INFO | Logging to file: logs/project_log.log
-2025-09-21 15:46:38 | INFO | Log sanitization enabled, personal info removed
-2025-09-21 15:46:38 | INFO | Project root: C:/Users/USER/Documents/buzzline-04-webb
-2025-09-21 15:46:38 | INFO | Data folder: C:/Users/USER/Documents/buzzline-04-webb/data
-2025-09-21 15:46:38 | INFO | Data file: C:/Users/USER/Documents/buzzline-04-webb/data/project_live.json
-2025-09-21 15:46:38 | INFO | START consumer.
-2025-09-21 15:46:41 | INFO | {'message': 'I just found travel! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-21 15:46:41', 'category': 'travel', 'sentiment': 0.05, 'keyword_mentioned': 'travel', 'message_length': 34}
-2025-09-21 15:46:41 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just found travel! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-21 15:46:41', 'category': 'travel', 'sentiment': 0.05, 'keyword_mentioned': 'travel', 'message_length': 34}
-2025-09-21 15:46:41 | INFO | Processed JSON message: {'message': 'I just found travel! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-21 15:46:41', 'category': 'travel', 'sentiment': 0.05, 'keyword_mentioned': 'travel', 'message_length': 34}
-2025-09-21 15:46:41 | INFO | Message received from author: Alice
-2025-09-21 15:46:41 | INFO | Updated author counts: {'Alice': 1}
-2025-09-21 15:46:41 | INFO | Chart updated successfully for message: {"message": "I just found travel! It was funny.", "author": "Alice", "timestamp": "2025-09-21 15:46:41", "category": "travel", "sentiment": 0.05, "keyword_mentioned": "travel", "message_length": 34}
-
-2025-09-21 15:46:46 | INFO | {'message': 'I just shared game! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-21 15:46:46', 'category': 'gaming', 'sentiment': 0.22, 'keyword_mentioned': 'game', 'message_length': 33}
-2025-09-21 15:46:46 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just shared game! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-21 15:46:46', 'category': 'gaming', 'sentiment': 0.22, 'keyword_mentioned': 'game', 'message_length': 33}
-2025-09-21 15:46:46 | INFO | Processed JSON message: {'message': 'I just shared game! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-21 15:46:46', 'category': 'gaming', 'sentiment': 0.22, 'keyword_mentioned': 'game', 'message_length': 33}
-2025-09-21 15:46:46 | INFO | Message received from author: Eve
-2025-09-21 15:46:46 | INFO | Updated author counts: {'Alice': 1, 'Eve': 1}
-2025-09-21 15:46:46 | INFO | Chart updated successfully for message: {"message": "I just shared game! It was weird.", "author": "Eve", "timestamp": "2025-09-21 15:46:46", "category": "gaming", "sentiment": 0.22, "keyword_mentioned": "game", "message_length": 33}
-
-2025-09-21 15:46:51 | INFO | {'message': 'I just saw a story! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-21 15:46:51', 'category': 'other', 'sentiment': 0.16, 'keyword_mentioned': 'other', 'message_length': 33}
-2025-09-21 15:46:51 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just saw a story! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-21 15:46:51', 'category': 'other', 'sentiment': 0.16, 'keyword_mentioned': 'other', 'message_length': 33}
-2025-09-21 15:46:51 | INFO | Processed JSON message: {'message': 'I just saw a story! It was weird.', 'author': 'Charlie', 'timestamp': '2025-09-21 15:46:51', 'category': 'other', 'sentiment': 0.16, 'keyword_mentioned': 'other', 'message_length': 33}
-2025-09-21 15:46:51 | INFO | Message received from author: Charlie
-2025-09-21 15:46:51 | INFO | Updated author counts: {'Alice': 1, 'Eve': 1, 'Charlie': 1}
-2025-09-21 15:46:51 | INFO | Chart updated successfully for message: {"message": "I just saw a story! It was weird.", "author": "Charlie", "timestamp": "2025-09-21 15:46:51", "category": "other", "sentiment": 0.16, "keyword_mentioned": "other", "message_length": 33}
-
-2025-09-21 15:46:56 | INFO | {'message': 'I just shared Python! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-21 15:46:56', 'category': 'tech', 'sentiment': 0.14, 'keyword_mentioned': 'Python', 'message_length': 38}
-2025-09-21 15:46:56 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just shared Python! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-21 15:46:56', 'category': 'tech', 'sentiment': 0.14, 'keyword_mentioned': 'Python', 'message_length': 38}
-2025-09-21 15:46:56 | INFO | Processed JSON message: {'message': 'I just shared Python! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-21 15:46:56', 'category': 'tech', 'sentiment': 0.14, 'keyword_mentioned': 'Python', 'message_length': 38}
-2025-09-21 15:46:56 | INFO | Message received from author: Alice
-2025-09-21 15:46:56 | INFO | Updated author counts: {'Alice': 2, 'Eve': 1, 'Charlie': 1}
-2025-09-21 15:46:56 | INFO | Chart updated successfully for message: {"message": "I just shared Python! It was exciting.", "author": "Alice", "timestamp": "2025-09-21 15:46:56", "category": "tech", "sentiment": 0.14, "keyword_mentioned": "Python", "message_length": 38}
-
-2025-09-21 15:47:01 | INFO | {'message': 'I just found a movie! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-21 15:47:01', 'category': 'entertainment', 'sentiment': 0.44, 'keyword_mentioned': 'movie', 'message_length': 38}
-2025-09-21 15:47:01 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just found a movie! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-21 15:47:01', 'category': 'entertainment', 'sentiment': 0.44, 'keyword_mentioned': 'movie', 'message_length': 38}
-2025-09-21 15:47:01 | INFO | Processed JSON message: {'message': 'I just found a movie! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-21 15:47:01', 'category': 'entertainment', 'sentiment': 0.44, 'keyword_mentioned': 'movie', 'message_length': 38}
-2025-09-21 15:47:01 | INFO | Message received from author: Eve
-2025-09-21 15:47:01 | INFO | Updated author counts: {'Alice': 2, 'Eve': 2, 'Charlie': 1}
-2025-09-21 15:47:02 | INFO | Chart updated successfully for message: {"message": "I just found a movie! It was exciting.", "author": "Eve", "timestamp": "2025-09-21 15:47:01", "category": "entertainment", "sentiment": 0.44, "keyword_mentioned": "movie", "message_length": 38}
-
-2025-09-21 15:47:06 | INFO | {'message': 'I just tried an app! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-21 15:47:06', 'category': 'other', 'sentiment': 0.71, 'keyword_mentioned': 'other', 'message_length': 36}
-2025-09-21 15:47:06 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just tried an app! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-21 15:47:06', 'category': 'other', 'sentiment': 0.71, 'keyword_mentioned': 'other', 'message_length': 36}
-2025-09-21 15:47:06 | INFO | Processed JSON message: {'message': 'I just tried an app! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-21 15:47:06', 'category': 'other', 'sentiment': 0.71, 'keyword_mentioned': 'other', 'message_length': 36}
-2025-09-21 15:47:06 | INFO | Message received from author: Eve
-2025-09-21 15:47:06 | INFO | Updated author counts: {'Alice': 2, 'Eve': 3, 'Charlie': 1}
-2025-09-21 15:47:06 | INFO | Chart updated successfully for message: {"message": "I just tried an app! It was amazing.", "author": "Eve", "timestamp": "2025-09-21 15:47:06", "category": "other", "sentiment": 0.71, "keyword_mentioned": "other", "message_length": 36}
-
-2025-09-21 15:47:09 | INFO | Consumer interrupted by user.
-2025-09-21 15:47:11 | INFO | {'message': 'I just loved a meme! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-21 15:47:11', 'category': 'humor', 'sentiment': 0.51, 'keyword_mentioned': 'meme', 'message_length': 36}
-2025-09-21 15:47:11 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just loved a meme! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-21 15:47:11', 'category': 'humor', 'sentiment': 0.51, 'keyword_mentioned': 'meme', 'message_length': 36}
-2025-09-21 15:47:16 | INFO | {'message': 'I just saw recipe! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-21 15:47:16', 'category': 'food', 'sentiment': 0.15, 'keyword_mentioned': 'recipe', 'message_length': 32}
-2025-09-21 15:47:16 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just saw recipe! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-21 15:47:16', 'category': 'food', 'sentiment': 0.15, 'keyword_mentioned': 'recipe', 'message_length': 32}
-2025-09-21 15:47:21 | WARNING | Producer interrupted by user.
-2025-09-21 15:47:21 | INFO | Kafka producer closed.
-2025-09-21 15:47:21 | INFO | Producer shutting down.
+2025-09-21 21:59:58 | INFO | Processed JSON message: {'message': 'I just saw a story! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-21 21:59:58', 'category': 'other', 'sentiment': 0.72, 'keyword_mentioned': 'other', 'message_length': 33}
+2025-09-21 21:59:58 | INFO | Message received at hour 21 in category: other
+2025-09-21 21:59:58 | INFO | Updated hourly category counts for hour 21: {'humor': 87, 'tech': 150, 'food': 66, 'travel': 63, 'entertainment': 68, 'gaming': 72, 'other': 213}
+2025-09-21 21:59:58 | INFO | Chart updated successfully
+2025-09-21 22:00:03 | INFO | {'message': 'I just shared a movie! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-21 22:00:03', 'category': 'entertainment', 'sentiment': 0.89, 'keyword_mentioned': 'movie', 'message_length': 39}
+2025-09-21 22:00:03 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just shared a movie! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-21 22:00:03', 'category': 'entertainment', 'sentiment': 0.89, 'keyword_mentioned': 'movie', 'message_length': 39}
+2025-09-21 22:00:03 | INFO | Processed JSON message: {'message': 'I just shared a movie! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-21 22:00:03', 'category': 'entertainment', 'sentiment': 0.89, 'keyword_mentioned': 'movie', 'message_length': 39}
+2025-09-21 22:00:03 | INFO | Message received at hour 22 in category: entertainment
+2025-09-21 22:00:03 | INFO | Updated hourly category counts for hour 22: {'humor': 0, 'tech': 0, 'food': 0, 'travel': 0, 'entertainment': 1, 'gaming': 0, 'other': 0}
+2025-09-21 22:00:03 | INFO | Chart updated successfully
+2025-09-21 22:00:08 | INFO | {'message': 'I just shared Python! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-21 22:00:08', 'category': 'tech', 'sentiment': 0.4, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-09-21 22:00:08 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just shared Python! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-21 22:00:08', 'category': 'tech', 'sentiment': 0.4, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-09-21 22:00:08 | INFO | Processed JSON message: {'message': 'I just shared Python! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-21 22:00:08', 'category': 'tech', 'sentiment': 0.4, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-09-21 22:00:08 | INFO | Message received at hour 22 in category: tech
+2025-09-21 22:00:08 | INFO | Updated hourly category counts for hour 22: {'humor': 0, 'tech': 1, 'food': 0, 'travel': 0, 'entertainment': 1, 'gaming': 0, 'other': 0}
+2025-09-21 22:00:08 | INFO | Chart updated successfully
+2025-09-21 22:00:13 | INFO | {'message': 'I just shared a trick! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-21 22:00:13', 'category': 'other', 'sentiment': 0.14, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-09-21 22:00:13 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just shared a trick! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-21 22:00:13', 'category': 'other', 'sentiment': 0.14, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-09-21 22:00:13 | INFO | Processed JSON message: {'message': 'I just shared a trick! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-21 22:00:13', 'category': 'other', 'sentiment': 0.14, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-09-21 22:00:13 | INFO | Message received at hour 22 in category: other
+2025-09-21 22:00:13 | INFO | Updated hourly category counts for hour 22: {'humor': 0, 'tech': 1, 'food': 0, 'travel': 0, 'entertainment': 1, 'gaming': 0, 'other': 1}
+2025-09-21 22:00:13 | INFO | Chart updated successfully
+2025-09-21 22:00:18 | INFO | {'message': 'I just found a story! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-21 22:00:18', 'category': 'other', 'sentiment': 0.4, 'keyword_mentioned': 'other', 'message_length': 37}
+2025-09-21 22:00:18 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just found a story! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-21 22:00:18', 'category': 'other', 'sentiment': 0.4, 'keyword_mentioned': 'other', 'message_length': 37}
+2025-09-21 22:00:18 | INFO | Processed JSON message: {'message': 'I just found a story! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-21 22:00:18', 'category': 'other', 'sentiment': 0.4, 'keyword_mentioned': 'other', 'message_length': 37}
+2025-09-21 22:00:18 | INFO | Message received at hour 22 in category: other
+2025-09-21 22:00:18 | INFO | Updated hourly category counts for hour 22: {'humor': 0, 'tech': 1, 'food': 0, 'travel': 0, 'entertainment': 1, 'gaming': 0, 'other': 2}
+2025-09-21 22:00:18 | INFO | Chart updated successfully
+2025-09-21 22:00:23 | INFO | {'message': 'I just found travel! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-21 22:00:23', 'category': 'travel', 'sentiment': 0.46, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-09-21 22:00:23 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just found travel! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-21 22:00:23', 'category': 'travel', 'sentiment': 0.46, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-09-21 22:00:23 | INFO | Processed JSON message: {'message': 'I just found travel! It was funny.', 'author': 'Charlie', 'timestamp': '2025-09-21 22:00:23', 'category': 'travel', 'sentiment': 0.46, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-09-21 22:00:23 | INFO | Message received at hour 22 in category: travel
+2025-09-21 22:00:23 | INFO | Updated hourly category counts for hour 22: {'humor': 0, 'tech': 1, 'food': 0, 'travel': 1, 'entertainment': 1, 'gaming': 0, 'other': 2}
+2025-09-21 22:00:23 | INFO | Chart updated successfully
+2025-09-21 22:00:28 | INFO | {'message': 'I just saw Python! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-21 22:00:28', 'category': 'tech', 'sentiment': 0.58, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-09-21 22:00:28 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just saw Python! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-21 22:00:28', 'category': 'tech', 'sentiment': 0.58, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-09-21 22:00:28 | INFO | Processed JSON message: {'message': 'I just saw Python! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-21 22:00:28', 'category': 'tech', 'sentiment': 0.58, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-09-21 22:00:28 | INFO | Message received at hour 22 in category: tech
+2025-09-21 22:00:28 | INFO | Updated hourly category counts for hour 22: {'humor': 0, 'tech': 2, 'food': 0, 'travel': 1, 'entertainment': 1, 'gaming': 0, 'other': 2}
+2025-09-21 22:00:28 | INFO | Chart updated successfully
+2025-09-21 22:00:33 | INFO | {'message': 'I just shared JavaScript! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-21 22:00:33', 'category': 'tech', 'sentiment': 0.17, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
+2025-09-21 22:00:33 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just shared JavaScript! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-21 22:00:33', 'category': 'tech', 'sentiment': 0.17, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
+2025-09-21 22:00:33 | INFO | Processed JSON message: {'message': 'I just shared JavaScript! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-21 22:00:33', 'category': 'tech', 'sentiment': 0.17, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
+2025-09-21 22:00:33 | INFO | Message received at hour 22 in category: tech
+2025-09-21 22:00:33 | INFO | Updated hourly category counts for hour 22: {'humor': 0, 'tech': 3, 'food': 0, 'travel': 1, 'entertainment': 1, 'gaming': 0, 'other': 2}
+2025-09-21 22:00:33 | INFO | Chart updated successfully
+2025-09-21 22:00:38 | INFO | {'message': 'I just loved a meme! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-21 22:00:38', 'category': 'humor', 'sentiment': 0.9, 'keyword_mentioned': 'meme', 'message_length': 35}
+2025-09-21 22:00:38 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just loved a meme! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-21 22:00:38', 'category': 'humor', 'sentiment': 0.9, 'keyword_mentioned': 'meme', 'message_length': 35}
+2025-09-21 22:00:38 | INFO | Processed JSON message: {'message': 'I just loved a meme! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-21 22:00:38', 'category': 'humor', 'sentiment': 0.9, 'keyword_mentioned': 'meme', 'message_length': 35}
+2025-09-21 22:00:38 | INFO | Message received at hour 22 in category: humor
+2025-09-21 22:00:38 | INFO | Updated hourly category counts for hour 22: {'humor': 1, 'tech': 3, 'food': 0, 'travel': 1, 'entertainment': 1, 'gaming': 0, 'other': 2}
+2025-09-21 22:00:38 | INFO | Chart updated successfully
+2025-09-21 22:00:43 | INFO | {'message': 'I just found travel! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-21 22:00:43', 'category': 'travel', 'sentiment': 0.13, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-09-21 22:00:43 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just found travel! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-21 22:00:43', 'category': 'travel', 'sentiment': 0.13, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-09-21 22:00:43 | INFO | Processed JSON message: {'message': 'I just found travel! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-21 22:00:43', 'category': 'travel', 'sentiment': 0.13, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-09-21 22:00:43 | INFO | Message received at hour 22 in category: travel
+2025-09-21 22:00:43 | INFO | Updated hourly category counts for hour 22: {'humor': 1, 'tech': 3, 'food': 0, 'travel': 2, 'entertainment': 1, 'gaming': 0, 'other': 2}
+2025-09-21 22:00:43 | INFO | Chart updated successfully
+2025-09-21 22:00:48 | INFO | {'message': 'I just tried an app! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-21 22:00:48', 'category': 'other', 'sentiment': 0.66, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-09-21 22:00:48 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just tried an app! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-21 22:00:48', 'category': 'other', 'sentiment': 0.66, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-09-21 22:00:48 | INFO | Processed JSON message: {'message': 'I just tried an app! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-21 22:00:48', 'category': 'other', 'sentiment': 0.66, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-09-21 22:00:48 | INFO | Message received at hour 22 in category: other
+2025-09-21 22:00:48 | INFO | Updated hourly category counts for hour 22: {'humor': 1, 'tech': 3, 'food': 0, 'travel': 2, 'entertainment': 1, 'gaming': 0, 'other': 3}
+2025-09-21 22:00:48 | INFO | Chart updated successfully
+2025-09-21 22:00:53 | INFO | {'message': 'I just saw game! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-21 22:00:53', 'category': 'gaming', 'sentiment': 0.49, 'keyword_mentioned': 'game', 'message_length': 30}
+2025-09-21 22:00:53 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just saw game! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-21 22:00:53', 'category': 'gaming', 'sentiment': 0.49, 'keyword_mentioned': 'game', 'message_length': 30}
+2025-09-21 22:00:53 | INFO | Processed JSON message: {'message': 'I just saw game! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-21 22:00:53', 'category': 'gaming', 'sentiment': 0.49, 'keyword_mentioned': 'game', 'message_length': 30}
+2025-09-21 22:00:53 | INFO | Message received at hour 22 in category: gaming
+2025-09-21 22:00:53 | INFO | Updated hourly category counts for hour 22: {'humor': 1, 'tech': 3, 'food': 0, 'travel': 2, 'entertainment': 1, 'gaming': 1, 'other': 3}
+2025-09-21 22:00:53 | INFO | Chart updated successfully
+2025-09-21 22:00:58 | INFO | {'message': 'I just loved travel! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-21 22:00:58', 'category': 'travel', 'sentiment': 0.05, 'keyword_mentioned': 'travel', 'message_length': 35}
+2025-09-21 22:00:58 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just loved travel! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-21 22:00:58', 'category': 'travel', 'sentiment': 0.05, 'keyword_mentioned': 'travel', 'message_length': 35}
+2025-09-21 22:00:58 | INFO | Processed JSON message: {'message': 'I just loved travel! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-21 22:00:58', 'category': 'travel', 'sentiment': 0.05, 'keyword_mentioned': 'travel', 'message_length': 35}
+2025-09-21 22:00:58 | INFO | Message received at hour 22 in category: travel
+2025-09-21 22:00:58 | INFO | Updated hourly category counts for hour 22: {'humor': 1, 'tech': 3, 'food': 0, 'travel': 3, 'entertainment': 1, 'gaming': 1, 'other': 3}
+2025-09-21 22:00:58 | INFO | Chart updated successfully
+2025-09-21 22:01:03 | INFO | {'message': 'I just found game! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-21 22:01:03', 'category': 'gaming', 'sentiment': 0.77, 'keyword_mentioned': 'game', 'message_length': 35}
+2025-09-21 22:01:03 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just found game! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-21 22:01:03', 'category': 'gaming', 'sentiment': 0.77, 'keyword_mentioned': 'game', 'message_length': 35}
+2025-09-21 22:01:03 | INFO | Processed JSON message: {'message': 'I just found game! It was exciting.', 'author': 'Bob', 'timestamp': '2025-09-21 22:01:03', 'category': 'gaming', 'sentiment': 0.77, 'keyword_mentioned': 'game', 'message_length': 35}
+2025-09-21 22:01:03 | INFO | Message received at hour 22 in category: gaming
+2025-09-21 22:01:03 | INFO | Updated hourly category counts for hour 22: {'humor': 1, 'tech': 3, 'food': 0, 'travel': 3, 'entertainment': 1, 'gaming': 2, 'other': 3}
+2025-09-21 22:01:03 | INFO | Chart updated successfully
+2025-09-21 22:01:08 | INFO | {'message': 'I just shared Python! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-21 22:01:08', 'category': 'tech', 'sentiment': 0.35, 'keyword_mentioned': 'Python', 'message_length': 37}
+2025-09-21 22:01:08 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just shared Python! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-21 22:01:08', 'category': 'tech', 'sentiment': 0.35, 'keyword_mentioned': 'Python', 'message_length': 37}
+2025-09-21 22:01:08 | INFO | Processed JSON message: {'message': 'I just shared Python! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-21 22:01:08', 'category': 'tech', 'sentiment': 0.35, 'keyword_mentioned': 'Python', 'message_length': 37}
+2025-09-21 22:01:08 | INFO | Message received at hour 22 in category: tech
+2025-09-21 22:01:08 | INFO | Updated hourly category counts for hour 22: {'humor': 1, 'tech': 4, 'food': 0, 'travel': 3, 'entertainment': 1, 'gaming': 2, 'other': 3}
+2025-09-21 22:01:08 | INFO | Chart updated successfully
+2025-09-21 22:01:13 | INFO | {'message': 'I just saw a meme! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-21 22:01:13', 'category': 'humor', 'sentiment': 0.79, 'keyword_mentioned': 'meme', 'message_length': 34}
+2025-09-21 22:01:13 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just saw a meme! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-21 22:01:13', 'category': 'humor', 'sentiment': 0.79, 'keyword_mentioned': 'meme', 'message_length': 34}
+2025-09-21 22:01:13 | INFO | Processed JSON message: {'message': 'I just saw a meme! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-21 22:01:13', 'category': 'humor', 'sentiment': 0.79, 'keyword_mentioned': 'meme', 'message_length': 34}
+2025-09-21 22:01:13 | INFO | Message received at hour 22 in category: humor
+2025-09-21 22:01:13 | INFO | Updated hourly category counts for hour 22: {'humor': 2, 'tech': 4, 'food': 0, 'travel': 3, 'entertainment': 1, 'gaming': 2, 'other': 3}
+2025-09-21 22:01:13 | INFO | Chart updated successfully
+2025-09-21 22:01:18 | INFO | {'message': 'I just saw a meme! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-21 22:01:18', 'category': 'humor', 'sentiment': 0.79, 'keyword_mentioned': 'meme', 'message_length': 32}
+2025-09-21 22:01:18 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just saw a meme! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-21 22:01:18', 'category': 'humor', 'sentiment': 0.79, 'keyword_mentioned': 'meme', 'message_length': 32}
+2025-09-21 22:01:18 | INFO | Processed JSON message: {'message': 'I just saw a meme! It was funny.', 'author': 'Alice', 'timestamp': '2025-09-21 22:01:18', 'category': 'humor', 'sentiment': 0.79, 'keyword_mentioned': 'meme', 'message_length': 32}
+2025-09-21 22:01:18 | INFO | Message received at hour 22 in category: humor
+2025-09-21 22:01:18 | INFO | Updated hourly category counts for hour 22: {'humor': 3, 'tech': 4, 'food': 0, 'travel': 3, 'entertainment': 1, 'gaming': 2, 'other': 3}
+2025-09-21 22:01:18 | INFO | Chart updated successfully
+2025-09-21 22:01:23 | INFO | {'message': 'I just loved recipe! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-21 22:01:23', 'category': 'food', 'sentiment': 0.27, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-21 22:01:23 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just loved recipe! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-21 22:01:23', 'category': 'food', 'sentiment': 0.27, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-21 22:01:23 | INFO | Processed JSON message: {'message': 'I just loved recipe! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-21 22:01:23', 'category': 'food', 'sentiment': 0.27, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-21 22:01:23 | INFO | Message received at hour 22 in category: food
+2025-09-21 22:01:23 | INFO | Updated hourly category counts for hour 22: {'humor': 3, 'tech': 4, 'food': 1, 'travel': 3, 'entertainment': 1, 'gaming': 2, 'other': 3}
+2025-09-21 22:01:23 | INFO | Chart updated successfully
+2025-09-21 22:01:28 | INFO | {'message': 'I just shared JavaScript! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-21 22:01:28', 'category': 'tech', 'sentiment': 0.7, 'keyword_mentioned': 'JavaScript', 'message_length': 41}
+2025-09-21 22:01:28 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just shared JavaScript! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-21 22:01:28', 'category': 'tech', 'sentiment': 0.7, 'keyword_mentioned': 'JavaScript', 'message_length': 41}
+2025-09-21 22:01:28 | INFO | Processed JSON message: {'message': 'I just shared JavaScript! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-21 22:01:28', 'category': 'tech', 'sentiment': 0.7, 'keyword_mentioned': 'JavaScript', 'message_length': 41}
+2025-09-21 22:01:28 | INFO | Message received at hour 22 in category: tech
+2025-09-21 22:01:28 | INFO | Updated hourly category counts for hour 22: {'humor': 3, 'tech': 5, 'food': 1, 'travel': 3, 'entertainment': 1, 'gaming': 2, 'other': 3}
+2025-09-21 22:01:28 | INFO | Chart updated successfully
+2025-09-21 22:01:33 | INFO | {'message': 'I just saw Python! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-21 22:01:33', 'category': 'tech', 'sentiment': 0.08, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-09-21 22:01:33 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just saw Python! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-21 22:01:33', 'category': 'tech', 'sentiment': 0.08, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-09-21 22:01:33 | INFO | Processed JSON message: {'message': 'I just saw Python! It was exciting.', 'author': 'Eve', 'timestamp': '2025-09-21 22:01:33', 'category': 'tech', 'sentiment': 0.08, 'keyword_mentioned': 'Python', 'message_length': 35}
+2025-09-21 22:01:33 | INFO | Message received at hour 22 in category: tech
+2025-09-21 22:01:33 | INFO | Updated hourly category counts for hour 22: {'humor': 3, 'tech': 6, 'food': 1, 'travel': 3, 'entertainment': 1, 'gaming': 2, 'other': 3}
+2025-09-21 22:01:33 | INFO | Chart updated successfully
+2025-09-21 22:01:38 | INFO | {'message': 'I just tried JavaScript! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-21 22:01:38', 'category': 'tech', 'sentiment': 0.95, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-09-21 22:01:38 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just tried JavaScript! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-21 22:01:38', 'category': 'tech', 'sentiment': 0.95, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-09-21 22:01:38 | INFO | Processed JSON message: {'message': 'I just tried JavaScript! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-21 22:01:38', 'category': 'tech', 'sentiment': 0.95, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-09-21 22:01:38 | INFO | Message received at hour 22 in category: tech
+2025-09-21 22:01:38 | INFO | Updated hourly category counts for hour 22: {'humor': 3, 'tech': 7, 'food': 1, 'travel': 3, 'entertainment': 1, 'gaming': 2, 'other': 3}
+2025-09-21 22:01:38 | INFO | Chart updated successfully
+2025-09-21 22:01:43 | INFO | {'message': 'I just saw Python! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-21 22:01:43', 'category': 'tech', 'sentiment': 0.91, 'keyword_mentioned': 'Python', 'message_length': 34}
+2025-09-21 22:01:43 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just saw Python! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-21 22:01:43', 'category': 'tech', 'sentiment': 0.91, 'keyword_mentioned': 'Python', 'message_length': 34}
+2025-09-21 22:01:43 | INFO | Processed JSON message: {'message': 'I just saw Python! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-21 22:01:43', 'category': 'tech', 'sentiment': 0.91, 'keyword_mentioned': 'Python', 'message_length': 34}
+2025-09-21 22:01:43 | INFO | Message received at hour 22 in category: tech
+2025-09-21 22:01:43 | INFO | Updated hourly category counts for hour 22: {'humor': 3, 'tech': 8, 'food': 1, 'travel': 3, 'entertainment': 1, 'gaming': 2, 'other': 3}
+2025-09-21 22:01:43 | INFO | Chart updated successfully
+2025-09-21 22:01:48 | INFO | {'message': 'I just tried a movie! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-21 22:01:48', 'category': 'entertainment', 'sentiment': 0.5, 'keyword_mentioned': 'movie', 'message_length': 35}
+2025-09-21 22:01:48 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just tried a movie! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-21 22:01:48', 'category': 'entertainment', 'sentiment': 0.5, 'keyword_mentioned': 'movie', 'message_length': 35}
+2025-09-21 22:01:48 | INFO | Processed JSON message: {'message': 'I just tried a movie! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-21 22:01:48', 'category': 'entertainment', 'sentiment': 0.5, 'keyword_mentioned': 'movie', 'message_length': 35}
+2025-09-21 22:01:48 | INFO | Message received at hour 22 in category: entertainment
+2025-09-21 22:01:48 | INFO | Updated hourly category counts for hour 22: {'humor': 3, 'tech': 8, 'food': 1, 'travel': 3, 'entertainment': 2, 'gaming': 2, 'other': 3}
+2025-09-21 22:01:48 | INFO | Chart updated successfully
+2025-09-21 22:01:53 | INFO | {'message': 'I just shared a trick! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-21 22:01:53', 'category': 'other', 'sentiment': 0.27, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-21 22:01:53 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just shared a trick! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-21 22:01:53', 'category': 'other', 'sentiment': 0.27, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-21 22:01:53 | INFO | Processed JSON message: {'message': 'I just shared a trick! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-21 22:01:53', 'category': 'other', 'sentiment': 0.27, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-21 22:01:53 | INFO | Message received at hour 22 in category: other
+2025-09-21 22:01:53 | INFO | Updated hourly category counts for hour 22: {'humor': 3, 'tech': 8, 'food': 1, 'travel': 3, 'entertainment': 2, 'gaming': 2, 'other': 4}
+2025-09-21 22:01:53 | INFO | Chart updated successfully
+2025-09-21 22:01:58 | INFO | {'message': 'I just tried recipe! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-21 22:01:58', 'category': 'food', 'sentiment': 0.27, 'keyword_mentioned': 'recipe', 'message_length': 37}
+2025-09-21 22:01:58 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just tried recipe! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-21 22:01:58', 'category': 'food', 'sentiment': 0.27, 'keyword_mentioned': 'recipe', 'message_length': 37}
+2025-09-21 22:01:58 | INFO | Processed JSON message: {'message': 'I just tried recipe! It was exciting.', 'author': 'Alice', 'timestamp': '2025-09-21 22:01:58', 'category': 'food', 'sentiment': 0.27, 'keyword_mentioned': 'recipe', 'message_length': 37}
+2025-09-21 22:01:58 | INFO | Message received at hour 22 in category: food
+2025-09-21 22:01:58 | INFO | Updated hourly category counts for hour 22: {'humor': 3, 'tech': 8, 'food': 2, 'travel': 3, 'entertainment': 2, 'gaming': 2, 'other': 4}
+2025-09-21 22:01:58 | INFO | Chart updated successfully
+2025-09-21 22:02:03 | INFO | {'message': 'I just loved travel! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-21 22:02:03', 'category': 'travel', 'sentiment': 0.61, 'keyword_mentioned': 'travel', 'message_length': 36}
+2025-09-21 22:02:03 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just loved travel! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-21 22:02:03', 'category': 'travel', 'sentiment': 0.61, 'keyword_mentioned': 'travel', 'message_length': 36}
+2025-09-21 22:02:03 | INFO | Processed JSON message: {'message': 'I just loved travel! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-21 22:02:03', 'category': 'travel', 'sentiment': 0.61, 'keyword_mentioned': 'travel', 'message_length': 36}
+2025-09-21 22:02:03 | INFO | Message received at hour 22 in category: travel
+2025-09-21 22:02:03 | INFO | Updated hourly category counts for hour 22: {'humor': 3, 'tech': 8, 'food': 2, 'travel': 4, 'entertainment': 2, 'gaming': 2, 'other': 4}
+2025-09-21 22:02:03 | INFO | Chart updated successfully
+2025-09-21 22:02:08 | INFO | {'message': 'I just saw travel! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-21 22:02:08', 'category': 'travel', 'sentiment': 0.51, 'keyword_mentioned': 'travel', 'message_length': 32}
+2025-09-21 22:02:08 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just saw travel! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-21 22:02:08', 'category': 'travel', 'sentiment': 0.51, 'keyword_mentioned': 'travel', 'message_length': 32}
+2025-09-21 22:02:08 | INFO | Processed JSON message: {'message': 'I just saw travel! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-21 22:02:08', 'category': 'travel', 'sentiment': 0.51, 'keyword_mentioned': 'travel', 'message_length': 32}
+2025-09-21 22:02:08 | INFO | Message received at hour 22 in category: travel
+2025-09-21 22:02:08 | INFO | Updated hourly category counts for hour 22: {'humor': 3, 'tech': 8, 'food': 2, 'travel': 5, 'entertainment': 2, 'gaming': 2, 'other': 4}
+2025-09-21 22:02:08 | INFO | Chart updated successfully
+2025-09-21 22:02:13 | INFO | {'message': 'I just found a movie! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-21 22:02:13', 'category': 'entertainment', 'sentiment': 0.31, 'keyword_mentioned': 'movie', 'message_length': 37}
+2025-09-21 22:02:13 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just found a movie! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-21 22:02:13', 'category': 'entertainment', 'sentiment': 0.31, 'keyword_mentioned': 'movie', 'message_length': 37}
+2025-09-21 22:02:13 | INFO | Processed JSON message: {'message': 'I just found a movie! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-21 22:02:13', 'category': 'entertainment', 'sentiment': 0.31, 'keyword_mentioned': 'movie', 'message_length': 37}
+2025-09-21 22:02:13 | INFO | Message received at hour 22 in category: entertainment
+2025-09-21 22:02:13 | INFO | Updated hourly category counts for hour 22: {'humor': 3, 'tech': 8, 'food': 2, 'travel': 5, 'entertainment': 3, 'gaming': 2, 'other': 4}
+2025-09-21 22:02:13 | INFO | Chart updated successfully
+2025-09-21 22:02:18 | INFO | {'message': 'I just tried JavaScript! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-21 22:02:18', 'category': 'tech', 'sentiment': 0.57, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-09-21 22:02:18 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just tried JavaScript! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-21 22:02:18', 'category': 'tech', 'sentiment': 0.57, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-09-21 22:02:18 | INFO | Processed JSON message: {'message': 'I just tried JavaScript! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-21 22:02:18', 'category': 'tech', 'sentiment': 0.57, 'keyword_mentioned': 'JavaScript', 'message_length': 38}
+2025-09-21 22:02:18 | INFO | Message received at hour 22 in category: tech
+2025-09-21 22:02:18 | INFO | Updated hourly category counts for hour 22: {'humor': 3, 'tech': 9, 'food': 2, 'travel': 5, 'entertainment': 3, 'gaming': 2, 'other': 4}
+2025-09-21 22:02:18 | INFO | Chart updated successfully
+2025-09-21 22:02:23 | INFO | {'message': 'I just found a meme! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-21 22:02:23', 'category': 'humor', 'sentiment': 0.34, 'keyword_mentioned': 'meme', 'message_length': 36}
+2025-09-21 22:02:23 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just found a meme! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-21 22:02:23', 'category': 'humor', 'sentiment': 0.34, 'keyword_mentioned': 'meme', 'message_length': 36}
+2025-09-21 22:02:23 | INFO | Processed JSON message: {'message': 'I just found a meme! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-21 22:02:23', 'category': 'humor', 'sentiment': 0.34, 'keyword_mentioned': 'meme', 'message_length': 36}
+2025-09-21 22:02:23 | INFO | Message received at hour 22 in category: humor
+2025-09-21 22:02:23 | INFO | Updated hourly category counts for hour 22: {'humor': 4, 'tech': 9, 'food': 2, 'travel': 5, 'entertainment': 3, 'gaming': 2, 'other': 4}
+2025-09-21 22:02:23 | INFO | Chart updated successfully
+2025-09-21 22:02:28 | INFO | {'message': 'I just found JavaScript! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-21 22:02:28', 'category': 'tech', 'sentiment': 0.63, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
+2025-09-21 22:02:28 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just found JavaScript! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-21 22:02:28', 'category': 'tech', 'sentiment': 0.63, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
+2025-09-21 22:02:28 | INFO | Processed JSON message: {'message': 'I just found JavaScript! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-21 22:02:28', 'category': 'tech', 'sentiment': 0.63, 'keyword_mentioned': 'JavaScript', 'message_length': 39}
+2025-09-21 22:02:28 | INFO | Message received at hour 22 in category: tech
+2025-09-21 22:02:28 | INFO | Updated hourly category counts for hour 22: {'humor': 4, 'tech': 10, 'food': 2, 'travel': 5, 'entertainment': 3, 'gaming': 2, 'other': 4}
+2025-09-21 22:02:28 | INFO | Chart updated successfully
+2025-09-21 22:02:33 | INFO | {'message': 'I just shared JavaScript! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-21 22:02:33', 'category': 'tech', 'sentiment': 0.39, 'keyword_mentioned': 'JavaScript', 'message_length': 41}
+2025-09-21 22:02:33 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just shared JavaScript! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-21 22:02:33', 'category': 'tech', 'sentiment': 0.39, 'keyword_mentioned': 'JavaScript', 'message_length': 41}
+2025-09-21 22:02:33 | INFO | Processed JSON message: {'message': 'I just shared JavaScript! It was amazing.', 'author': 'Bob', 'timestamp': '2025-09-21 22:02:33', 'category': 'tech', 'sentiment': 0.39, 'keyword_mentioned': 'JavaScript', 'message_length': 41}
+2025-09-21 22:02:33 | INFO | Message received at hour 22 in category: tech
+2025-09-21 22:02:33 | INFO | Updated hourly category counts for hour 22: {'humor': 4, 'tech': 11, 'food': 2, 'travel': 5, 'entertainment': 3, 'gaming': 2, 'other': 4}
+2025-09-21 22:02:33 | INFO | Chart updated successfully
+2025-09-21 22:02:38 | INFO | {'message': 'I just loved recipe! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-21 22:02:38', 'category': 'food', 'sentiment': 0.35, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-21 22:02:38 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just loved recipe! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-21 22:02:38', 'category': 'food', 'sentiment': 0.35, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-21 22:02:38 | INFO | Processed JSON message: {'message': 'I just loved recipe! It was funny.', 'author': 'Bob', 'timestamp': '2025-09-21 22:02:38', 'category': 'food', 'sentiment': 0.35, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-21 22:02:38 | INFO | Message received at hour 22 in category: food
+2025-09-21 22:02:38 | INFO | Updated hourly category counts for hour 22: {'humor': 4, 'tech': 11, 'food': 3, 'travel': 5, 'entertainment': 3, 'gaming': 2, 'other': 4}
+2025-09-21 22:02:38 | INFO | Chart updated successfully
+2025-09-21 22:02:43 | INFO | {'message': 'I just tried recipe! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-21 22:02:43', 'category': 'food', 'sentiment': 1.0, 'keyword_mentioned': 'recipe', 'message_length': 35}
+2025-09-21 22:02:43 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just tried recipe! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-21 22:02:43', 'category': 'food', 'sentiment': 1.0, 'keyword_mentioned': 'recipe', 'message_length': 35}
+2025-09-21 22:02:43 | INFO | Processed JSON message: {'message': 'I just tried recipe! It was boring.', 'author': 'Bob', 'timestamp': '2025-09-21 22:02:43', 'category': 'food', 'sentiment': 1.0, 'keyword_mentioned': 'recipe', 'message_length': 35}
+2025-09-21 22:02:43 | INFO | Message received at hour 22 in category: food
+2025-09-21 22:02:43 | INFO | Updated hourly category counts for hour 22: {'humor': 4, 'tech': 11, 'food': 4, 'travel': 5, 'entertainment': 3, 'gaming': 2, 'other': 4}
+2025-09-21 22:02:43 | INFO | Chart updated successfully
+2025-09-21 22:02:48 | INFO | {'message': 'I just loved recipe! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-21 22:02:48', 'category': 'food', 'sentiment': 0.15, 'keyword_mentioned': 'recipe', 'message_length': 37}
+2025-09-21 22:02:48 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just loved recipe! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-21 22:02:48', 'category': 'food', 'sentiment': 0.15, 'keyword_mentioned': 'recipe', 'message_length': 37}
+2025-09-21 22:02:48 | INFO | Processed JSON message: {'message': 'I just loved recipe! It was exciting.', 'author': 'Charlie', 'timestamp': '2025-09-21 22:02:48', 'category': 'food', 'sentiment': 0.15, 'keyword_mentioned': 'recipe', 'message_length': 37}
+2025-09-21 22:02:48 | INFO | Message received at hour 22 in category: food
+2025-09-21 22:02:48 | INFO | Updated hourly category counts for hour 22: {'humor': 4, 'tech': 11, 'food': 5, 'travel': 5, 'entertainment': 3, 'gaming': 2, 'other': 4}
+2025-09-21 22:02:48 | INFO | Chart updated successfully
+2025-09-21 22:02:53 | INFO | {'message': 'I just saw travel! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-21 22:02:53', 'category': 'travel', 'sentiment': 0.32, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-09-21 22:02:53 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just saw travel! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-21 22:02:53', 'category': 'travel', 'sentiment': 0.32, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-09-21 22:02:53 | INFO | Processed JSON message: {'message': 'I just saw travel! It was amazing.', 'author': 'Charlie', 'timestamp': '2025-09-21 22:02:53', 'category': 'travel', 'sentiment': 0.32, 'keyword_mentioned': 'travel', 'message_length': 34}
+2025-09-21 22:02:53 | INFO | Message received at hour 22 in category: travel
+2025-09-21 22:02:53 | INFO | Updated hourly category counts for hour 22: {'humor': 4, 'tech': 11, 'food': 5, 'travel': 6, 'entertainment': 3, 'gaming': 2, 'other': 4}
+2025-09-21 22:02:53 | INFO | Chart updated successfully
+2025-09-21 22:02:58 | INFO | {'message': 'I just loved travel! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-21 22:02:58', 'category': 'travel', 'sentiment': 0.49, 'keyword_mentioned': 'travel', 'message_length': 35}
+2025-09-21 22:02:58 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just loved travel! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-21 22:02:58', 'category': 'travel', 'sentiment': 0.49, 'keyword_mentioned': 'travel', 'message_length': 35}
+2025-09-21 22:02:58 | INFO | Processed JSON message: {'message': 'I just loved travel! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-21 22:02:58', 'category': 'travel', 'sentiment': 0.49, 'keyword_mentioned': 'travel', 'message_length': 35}
+2025-09-21 22:02:58 | INFO | Message received at hour 22 in category: travel
+2025-09-21 22:02:58 | INFO | Updated hourly category counts for hour 22: {'humor': 4, 'tech': 11, 'food': 5, 'travel': 7, 'entertainment': 3, 'gaming': 2, 'other': 4}
+2025-09-21 22:02:58 | INFO | Chart updated successfully
+2025-09-21 22:03:03 | INFO | {'message': 'I just found a trick! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-21 22:03:03', 'category': 'other', 'sentiment': 0.22, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-21 22:03:03 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just found a trick! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-21 22:03:03', 'category': 'other', 'sentiment': 0.22, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-21 22:03:03 | INFO | Processed JSON message: {'message': 'I just found a trick! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-21 22:03:03', 'category': 'other', 'sentiment': 0.22, 'keyword_mentioned': 'other', 'message_length': 36}
+2025-09-21 22:03:03 | INFO | Message received at hour 22 in category: other
+2025-09-21 22:03:03 | INFO | Updated hourly category counts for hour 22: {'humor': 4, 'tech': 11, 'food': 5, 'travel': 7, 'entertainment': 3, 'gaming': 2, 'other': 5}
+2025-09-21 22:03:03 | INFO | Chart updated successfully
+2025-09-21 22:03:08 | INFO | {'message': 'I just tried an app! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-21 22:03:08', 'category': 'other', 'sentiment': 0.53, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-09-21 22:03:08 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just tried an app! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-21 22:03:08', 'category': 'other', 'sentiment': 0.53, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-09-21 22:03:08 | INFO | Processed JSON message: {'message': 'I just tried an app! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-21 22:03:08', 'category': 'other', 'sentiment': 0.53, 'keyword_mentioned': 'other', 'message_length': 34}
+2025-09-21 22:03:08 | INFO | Message received at hour 22 in category: other
+2025-09-21 22:03:08 | INFO | Updated hourly category counts for hour 22: {'humor': 4, 'tech': 11, 'food': 5, 'travel': 7, 'entertainment': 3, 'gaming': 2, 'other': 6}
+2025-09-21 22:03:08 | INFO | Chart updated successfully
+2025-09-21 22:03:13 | INFO | {'message': 'I just found a story! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-21 22:03:13', 'category': 'other', 'sentiment': 0.38, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-21 22:03:13 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just found a story! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-21 22:03:13', 'category': 'other', 'sentiment': 0.38, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-21 22:03:13 | INFO | Processed JSON message: {'message': 'I just found a story! It was weird.', 'author': 'Eve', 'timestamp': '2025-09-21 22:03:13', 'category': 'other', 'sentiment': 0.38, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-21 22:03:13 | INFO | Message received at hour 22 in category: other
+2025-09-21 22:03:13 | INFO | Updated hourly category counts for hour 22: {'humor': 4, 'tech': 11, 'food': 5, 'travel': 7, 'entertainment': 3, 'gaming': 2, 'other': 7}
+2025-09-21 22:03:13 | INFO | Chart updated successfully
+2025-09-21 22:03:18 | INFO | {'message': 'I just saw recipe! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-21 22:03:18', 'category': 'food', 'sentiment': 0.11, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-21 22:03:18 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just saw recipe! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-21 22:03:18', 'category': 'food', 'sentiment': 0.11, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-21 22:03:18 | INFO | Processed JSON message: {'message': 'I just saw recipe! It was amazing.', 'author': 'Alice', 'timestamp': '2025-09-21 22:03:18', 'category': 'food', 'sentiment': 0.11, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-21 22:03:18 | INFO | Message received at hour 22 in category: food
+2025-09-21 22:03:18 | INFO | Updated hourly category counts for hour 22: {'humor': 4, 'tech': 11, 'food': 6, 'travel': 7, 'entertainment': 3, 'gaming': 2, 'other': 7}
+2025-09-21 22:03:18 | INFO | Chart updated successfully
+2025-09-21 22:03:23 | INFO | {'message': 'I just shared an app! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-21 22:03:23', 'category': 'other', 'sentiment': 0.73, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-21 22:03:23 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just shared an app! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-21 22:03:23', 'category': 'other', 'sentiment': 0.73, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-21 22:03:23 | INFO | Processed JSON message: {'message': 'I just shared an app! It was funny.', 'author': 'Eve', 'timestamp': '2025-09-21 22:03:23', 'category': 'other', 'sentiment': 0.73, 'keyword_mentioned': 'other', 'message_length': 35}
+2025-09-21 22:03:23 | INFO | Message received at hour 22 in category: other
+2025-09-21 22:03:23 | INFO | Updated hourly category counts for hour 22: {'humor': 4, 'tech': 11, 'food': 6, 'travel': 7, 'entertainment': 3, 'gaming': 2, 'other': 8}
+2025-09-21 22:03:23 | INFO | Chart updated successfully
+2025-09-21 22:03:28 | INFO | {'message': 'I just shared a movie! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-21 22:03:28', 'category': 'entertainment', 'sentiment': 0.75, 'keyword_mentioned': 'movie', 'message_length': 37}
+2025-09-21 22:03:28 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just shared a movie! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-21 22:03:28', 'category': 'entertainment', 'sentiment': 0.75, 'keyword_mentioned': 'movie', 'message_length': 37}
+2025-09-21 22:03:28 | INFO | Processed JSON message: {'message': 'I just shared a movie! It was boring.', 'author': 'Alice', 'timestamp': '2025-09-21 22:03:28', 'category': 'entertainment', 'sentiment': 0.75, 'keyword_mentioned': 'movie', 'message_length': 37}
+2025-09-21 22:03:28 | INFO | Message received at hour 22 in category: entertainment
+2025-09-21 22:03:28 | INFO | Updated hourly category counts for hour 22: {'humor': 4, 'tech': 11, 'food': 6, 'travel': 7, 'entertainment': 4, 'gaming': 2, 'other': 8}
+2025-09-21 22:03:28 | INFO | Chart updated successfully
+2025-09-21 22:03:33 | INFO | {'message': 'I just found recipe! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-21 22:03:33', 'category': 'food', 'sentiment': 0.84, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-21 22:03:33 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just found recipe! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-21 22:03:33', 'category': 'food', 'sentiment': 0.84, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-21 22:03:33 | INFO | Processed JSON message: {'message': 'I just found recipe! It was weird.', 'author': 'Alice', 'timestamp': '2025-09-21 22:03:33', 'category': 'food', 'sentiment': 0.84, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-21 22:03:33 | INFO | Message received at hour 22 in category: food
+2025-09-21 22:03:33 | INFO | Updated hourly category counts for hour 22: {'humor': 4, 'tech': 11, 'food': 7, 'travel': 7, 'entertainment': 4, 'gaming': 2, 'other': 8}
+2025-09-21 22:03:33 | INFO | Chart updated successfully
+2025-09-21 22:03:38 | INFO | {'message': 'I just shared a story! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-21 22:03:38', 'category': 'other', 'sentiment': 0.94, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-09-21 22:03:38 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just shared a story! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-21 22:03:38', 'category': 'other', 'sentiment': 0.94, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-09-21 22:03:38 | INFO | Processed JSON message: {'message': 'I just shared a story! It was amazing.', 'author': 'Eve', 'timestamp': '2025-09-21 22:03:38', 'category': 'other', 'sentiment': 0.94, 'keyword_mentioned': 'other', 'message_length': 38}
+2025-09-21 22:03:38 | INFO | Message received at hour 22 in category: other
+2025-09-21 22:03:38 | INFO | Updated hourly category counts for hour 22: {'humor': 4, 'tech': 11, 'food': 7, 'travel': 7, 'entertainment': 4, 'gaming': 2, 'other': 9}
+2025-09-21 22:03:38 | INFO | Chart updated successfully
+2025-09-21 22:03:43 | INFO | {'message': 'I just found recipe! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-21 22:03:43', 'category': 'food', 'sentiment': 0.53, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-21 22:03:43 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just found recipe! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-21 22:03:43', 'category': 'food', 'sentiment': 0.53, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-21 22:03:43 | INFO | Processed JSON message: {'message': 'I just found recipe! It was weird.', 'author': 'Bob', 'timestamp': '2025-09-21 22:03:43', 'category': 'food', 'sentiment': 0.53, 'keyword_mentioned': 'recipe', 'message_length': 34}
+2025-09-21 22:03:43 | INFO | Message received at hour 22 in category: food
+2025-09-21 22:03:43 | INFO | Updated hourly category counts for hour 22: {'humor': 4, 'tech': 11, 'food': 8, 'travel': 7, 'entertainment': 4, 'gaming': 2, 'other': 9}
+2025-09-21 22:03:43 | INFO | Chart updated successfully
+2025-09-21 22:03:46 | INFO | Consumer interrupted by user.
+2025-09-21 22:03:48 | INFO | {'message': 'I just tried game! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-21 22:03:48', 'category': 'gaming', 'sentiment': 0.28, 'keyword_mentioned': 'game', 'message_length': 33}
+2025-09-21 22:03:48 | INFO | Sent message to Kafka topic 'project_json': {'message': 'I just tried game! It was boring.', 'author': 'Charlie', 'timestamp': '2025-09-21 22:03:48', 'category': 'gaming', 'sentiment': 0.28, 'keyword_mentioned': 'game', 'message_length': 33}
+2025-09-21 22:03:52 | WARNING | Producer interrupted by user.
+2025-09-21 22:03:52 | INFO | Kafka producer closed.
+2025-09-21 22:03:52 | INFO | Producer shutting down.

@@ -62,28 +62,51 @@ plt.ion()  # Turn on interactive mode for live updates
 
 
 def update_chart():
-    """Update the live chart with the latest author counts."""
+    """Update the live chart with hourly category message counts."""
     # Clear the previous chart
     ax.clear()
 
-    # Get the authors and counts from the dictionary
-    authors_list = list(author_counts.keys())
-    counts_list = list(author_counts.values())
+    # Define colors for each category
+    category_colors = {
+        'humor': 'red',
+        'tech': 'blue', 
+        'food': 'green',
+        'travel': 'orange',
+        'entertainment': 'purple',
+        'gaming': 'brown',
+        'other': 'gray'
+    }
 
-    # Create a bar chart using the bar() method.
-    # Pass in the x list, the y list, and the color
-    ax.bar(authors_list, counts_list, color="green")
+    # Create hours list (0-23)
+    hours = list(range(24))
+    
+    # Plot a line for each category that has data
+    for category in category_colors.keys():
+        # Get counts for this category across all hours
+        counts = [hourly_category_counts[hour][category] for hour in hours]
+        
+        # Only plot if there's some data for this category
+        if sum(counts) > 0:
+            ax.plot(hours, counts, 
+                   label=category.capitalize(), 
+                   color=category_colors[category],
+                   marker='o',
+                   linewidth=2)
 
-    # Use the built-in axes methods to set the labels and title
-    ax.set_xlabel("Authors")
-    ax.set_ylabel("Message Counts")
-    ax.set_title("Basic Real-Time Author Message Counts")
-
-    # Use the set_xticklabels() method to rotate the x-axis labels
-    # Pass in the x list, specify the rotation angle is 45 degrees,
-    # and align them to the right
-    # ha stands for horizontal alignment
-    ax.set_xticklabels(authors_list, rotation=45, ha="right")
+    # Set up the chart labels and title
+    ax.set_xlabel("Hour of Day (0-23)")
+    ax.set_ylabel("Number of Messages")
+    ax.set_title("Messages by Hour and Category")
+    
+    # Set x-axis to show all hours
+    ax.set_xlim(0, 23)
+    ax.set_xticks(range(0, 24, 2))  # Show every other hour to avoid crowding
+    
+    # Add legend
+    ax.legend(loc='upper right')
+    
+    # Add grid for easier reading
+    ax.grid(True, alpha=0.3)
 
     # Use the tight_layout() method to automatically adjust the padding
     plt.tight_layout()
@@ -119,27 +142,39 @@ def process_message(message: str) -> None:
 
         # Ensure it's a dictionary before accessing fields
         if isinstance(message_dict, dict):
-            # Extract the 'author' field from the Python dictionary
-            author = message_dict.get("author", "unknown")
-            logger.info(f"Message received from author: {author}")
+            # Extract the 'timestamp' and 'category' fields from the message
+            timestamp_str = message_dict.get("timestamp", "")
+            category = message_dict.get("category", "other")
+            
+            if timestamp_str:
+                # Parse the timestamp to extract the hour
+                # Format: "2025-01-29 14:35:20"
+                timestamp_obj = datetime.strptime(timestamp_str, "%Y-%m-%d %H:%M:%S")
+                hour = timestamp_obj.hour  # Extract hour (0-23)
+                
+                logger.info(f"Message received at hour {hour} in category: {category}")
 
-            # Increment the count for the author
-            author_counts[author] += 1
+                # Increment the count for this hour and category
+                hourly_category_counts[hour][category] += 1
 
-            # Log the updated counts
-            logger.info(f"Updated author counts: {dict(author_counts)}")
+                # Log the updated counts
+                logger.info(f"Updated hourly category counts for hour {hour}: {dict(hourly_category_counts[hour])}")
 
-            # Update the chart
-            update_chart()
+                # Update the chart
+                update_chart()
 
-            # Log the updated chart
-            logger.info(f"Chart updated successfully for message: {message}")
+                # Log the updated chart
+                logger.info(f"Chart updated successfully")
+            else:
+                logger.error(f"Missing timestamp in message: {message}")
 
         else:
             logger.error(f"Expected a dictionary but got: {type(message_dict)}")
 
     except json.JSONDecodeError:
         logger.error(f"Invalid JSON message: {message}")
+    except ValueError as e:
+        logger.error(f"Error parsing timestamp: {e}")
     except Exception as e:
         logger.error(f"Error processing message: {e}")
 
