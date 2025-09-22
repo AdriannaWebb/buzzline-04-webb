@@ -1,5 +1,5 @@
 """
-basic_json_consumer_case.py
+json_consumer_webb.py
 
 Read a JSON-formatted file as it is being written. 
 
